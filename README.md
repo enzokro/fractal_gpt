@@ -2,11 +2,9 @@
 
 Annotated version of Karpathy's nanoGPT video.    
 
-The Jupyter notebooks in `nbs/` step through each section of the video, with added context and more examples.  
+The Jupyter notebooks in `nbs` step through each section of the video, with added context and more examples. Then everything is put together into a final notebook at the end.  
 
-Then everything is put together into a final notebook at the end.  
-
-The python files inside `annotatedGPT` are exported directly from the notebooks. 
+The python files in `annotatedGPT` are exported directly from the notebooks. 
 
 # Setup  
 
@@ -28,7 +26,8 @@ https://mamba.readthedocs.io/en/latest/installation.html#manual-installation
 
 ### Create the virtual environment:  
 
-The environment will be called `fractal_gpt` and it uses python version 3.11.  
+The environment will be called `fractal_gpt` and use python version 3.11.  
+
 ```bash
 micromamba create --name fractal_gpt python=3.11 
 ```
@@ -39,7 +38,7 @@ micromamba create --name fractal_gpt python=3.11
 micromamba activate fractal_gpt 
 ```
  
-### Install the required libraries inside the environment:  
+### Install the required libraries:  
 
 ```bash
 pip install -r requirements.txt
