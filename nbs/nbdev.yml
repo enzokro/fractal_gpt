@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "fractal_gpt"
+  site-url: "https://enzokro.github.io/fractal_gpt"
+  description: "Working through GPT from scratch"
+  repo-branch: main
+  repo-url: "https://github.com/enzokro/fractal_gpt"
