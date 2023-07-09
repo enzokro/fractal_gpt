@@ -1,24 +1,26 @@
 # fractal_gpt   
 
-> Annotated version of Karpathy's nanoGPT video.    
+Annotated version of Karpathy's nanoGPT video.    
 
-The Jupyter notebooks inside of `nbs` step through each section of the video, with added context and more examples.  
+The Jupyter notebooks in `nbs/` step through each section of the video, with added context and more examples.  
 
-Then, everything is put together into a final notebook at the end.  
+Then everything is put together into a final notebook at the end.  
 
 The python files inside `annotatedGPT` are exported directly from the notebooks. 
 
 # Setup  
 
-You can use your favorite python environment manager to install `requirements.txt`. Below we we `mamba` which is a better version of `anaconda` with great coverage of ML and scientific libraries.   
+You can use your favorite python environment manager to install `requirements.txt`. Below we use `mamba`, a better version of `anaconda`, with great coverage for ML libraries.   
 
 ## Install the mamba package manager  
 
 ### Using `homebrew` on Mac:    
 
+```bash
 brew install micromamba  
+```
 
-## Installations for other OS's and setups:  
+### Installations for other OS's and setups:  
 
 https://mamba.readthedocs.io/en/latest/installation.html#manual-installation  
 
